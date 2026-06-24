@@ -164,11 +164,7 @@ export default function Projects() {
                     {project.description}
                   </p>
 
-                  {/* Impact */}
-                  <div className="rounded-lg px-3 py-2.5 bg-sky-50 border border-sky-100">
-                    <p className="text-sky-700 text-xs font-medium">
-                      ✦ {project.impact}
-                    </p>
+
                   </div>
 
                   {/* Tags */}
