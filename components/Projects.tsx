@@ -9,15 +9,14 @@ const projects = [
     id: 1,
     emoji: "🏥",
     title: "Medical RAG Assistant",
-    subtitle: "Portfolio Project #9",
+    subtitle: "Medical Report Explainer",
     description:
       "An AI-powered question-answering system that retrieves precise information from medical documents using Retrieval Augmented Generation. Processes PDFs, chunks intelligently, and answers clinical queries with source citations.",
     tags: ["Python", "LangChain", "Pinecone", "OpenAI GPT-4o", "FastAPI", "FAISS"],
-    github: "https://github.com/edaUsha",
+    github: "https://github.com/edaUsha/Medical-Report-Explainer",
     demo: null,
     gradient: "from-sky-400 to-sky-600",
     highlight: true,
-    impact: "Reduced information retrieval time by ~70% in medical document search",
   },
   {
     id: 2,
@@ -27,25 +26,24 @@ const projects = [
     description:
       "Fine-tuned BERT transformer model that classifies customer text into positive, neutral, and negative sentiment. Handles domain-specific language nuances with high precision-recall balance.",
     tags: ["Python", "Transformers", "BERT", "PyTorch", "Scikit-learn", "HuggingFace"],
-    github: "https://github.com/edaUsha",
+    github: "https://github.com/edaUsha/Fine-Tuning-Bert-For-Sentiment-Analysis",
     demo: null,
     gradient: "from-blue-400 to-blue-600",
     highlight: false,
-    impact: "F1 score improvement over baseline bag-of-words models",
   },
   {
     id: 3,
     emoji: "🎫",
-    title: "Support Ticket Classifier",
+    title: "Interactive Cyber Threat Visualization Dashboard",
     subtitle: "ML Engineering Project",
     description:
-      "Automated NLP system that categorizes incoming customer support tickets by issue type and urgency. Routes tickets to the right team instantly, replacing manual triage workflows.",
-    tags: ["Scikit-learn", "XGBoost", "NLP", "TF-IDF", "Streamlit", "Python"],
-    github: "https://github.com/edaUsha",
+      "Interactive dashboard that visualizes cyber threat intelligence from network and security event logs in real time. Security analysts can explore attack types, sources, timelines, and severity using rich visual filters, enabling faster detection, investigation, and response to suspicious activity.",
+    tags: ["Cyber-security", "Threat-Tntelligence", "SOC-Operations", "Attack-Detection", "Cyber-Threat-Dashboard", "Vercel"],
+    github: "https://github.com/edaUsha/Development-of-Interactive-Cyber-Threat-Visualization-Dashboard",
     demo: null,
     gradient: "from-indigo-400 to-indigo-600",
     highlight: false,
-    impact: "Automated categorization of 95%+ of incoming tickets",
+    
   },
   {
     id: 4,
@@ -55,7 +53,7 @@ const projects = [
     description:
       "Real-time computer vision pipeline using YOLOv8 pose estimation to detect and classify swimming strokes from video footage. Identifies butterfly, freestyle, breaststroke, and backstroke from keypoint analysis.",
     tags: ["YOLOv8", "OpenCV", "PyTorch", "Pose Estimation", "CNN", "Python"],
-    github: "https://github.com/edaUsha",
+    github: "https://github.com/edaUsha/Pose-Based-Swimming-Stroke-Detection",
     demo: null,
     gradient: "from-cyan-400 to-cyan-600",
     highlight: true,
@@ -68,12 +66,11 @@ const projects = [
     subtitle: "ML + Streamlit Deployment",
     description:
       "End-to-end churn prediction system for banking customers using XGBoost with class imbalance handling. Deployed as a live Streamlit app with explainability features via SHAP.",
-    tags: ["XGBoost", "SHAP", "Streamlit", "Scikit-learn", "Python", "Imbalanced-learn"],
-    github: "https://github.com/edaUsha",
+    tags: ["XGBoost",  "Streamlit", "Scikit-learn", "Python", "Imbalanced-learn"],
+    github: "https://github.com/edaUsha/Banking-Churn-Prediction",
     demo: null,
     gradient: "from-sky-500 to-blue-600",
     highlight: false,
-    impact: "Deployed live with SHAP-based feature explanations",
   },
   {
     id: 6,
@@ -83,11 +80,10 @@ const projects = [
     description:
       "Operational root cause analysis of Brazilian e-commerce platform data. Discovered that 97% of customers were one-time buyers — pivoting from RFM analysis to delivery performance investigation that surfaced actionable logistics insights.",
     tags: ["Python", "Pandas", "Data Visualization", "Statistical Analysis", "Business Intelligence"],
-    github: "https://github.com/edaUsha",
+    github: "https://github.com/edaUsha/OList-Brazilian-E-Commerce-Dataset",
     demo: null,
     gradient: "from-violet-400 to-violet-600",
     highlight: false,
-    impact: "Identified key delivery failure patterns driving customer drop-off",
   },
 ];
 
