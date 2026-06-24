@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, Heart } from "lucide-react";
 const socialLinks = [
   { icon: Github, href: "https://github.com/edaUsha", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com/in/usha-rao-patteti", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:usharao@example.com", label: "Email" },
+  { icon: Mail, href: "mailto:work.pattetiusha@gmail.com", label: "Email" },
 ];
 
 const navLinks = [
@@ -115,7 +115,7 @@ export default function Footer() {
                 Seeking Data Scientist / ML Engineer roles. Available immediately.
               </p>
               <a
-                href="mailto:usharao@example.com"
+                href="mailto:work.pattetiusha@gmail.com"
                 className="text-sky-400 text-xs font-medium hover:text-sky-300 transition-colors"
               >
                 Get in touch →
