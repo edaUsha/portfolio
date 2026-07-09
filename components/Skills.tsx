@@ -10,7 +10,7 @@ const skillCategories = [
     color: "from-sky-400 to-sky-600",
     bg: "bg-sky-50",
     border: "border-sky-100",
-    skills: ["Python", "SQL", "R", "Bash"],
+    skills: ["Python", "SQL", "Bash"],
   },
   {
     title: "Data Analytics",
@@ -26,7 +26,7 @@ const skillCategories = [
     color: "from-indigo-400 to-indigo-600",
     bg: "bg-indigo-50",
     border: "border-indigo-100",
-    skills: ["Scikit-learn", "XGBoost", "Feature Engineering", "Model Evaluation", "SMOTE", "Cross-validation"],
+    skills: ["Scikit-learn", "ML Models", "Feature Engineering", "Model Evaluation", "SMOTE", "Cross-validation"],
   },
   {
     title: "Deep Learning",
@@ -34,7 +34,7 @@ const skillCategories = [
     color: "from-violet-400 to-violet-600",
     bg: "bg-violet-50",
     border: "border-violet-100",
-    skills: ["TensorFlow", "PyTorch", "CNN", "Transfer Learning", "YOLOv8", "Pose Estimation"],
+    skills: ["TensorFlow", "PyTorch", "CNN", "RNN", "Transfer Learning", "YOLOv8", "Pose Estimation"],
   },
   {
     title: "NLP & Generative AI",
@@ -42,7 +42,7 @@ const skillCategories = [
     color: "from-cyan-400 to-cyan-600",
     bg: "bg-cyan-50",
     border: "border-cyan-100",
-    skills: ["Transformers", "BERT", "LangChain", "RAG", "LLM Applications", "Pinecone", "FAISS", "OpenAI API"],
+    skills: ["Transformers", "BERT", "LangChain", "RAG", "LLM Applications", "Pinecone", , "OpenAI,GROQ APIs"],
   },
   {
     title: "Tools & Platforms",
