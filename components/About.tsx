@@ -36,15 +36,15 @@ export default function About() {
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="flex flex-col gap-8"
+            className="flex flex-col gap-6"
           >
             {/* Bio */}
             <div className="glass-card p-7">
               <p className="text-gray-700 leading-relaxed text-base mb-4">
-                I&apos;m a <span className="text-sky-600 font-semibold">Data Analytics graduate</span> with a strong foundation in statistics, programming, machine learning, and AI. I enjoy building end-to-end systems that solve real problems.
+                I&apos;m a <span className="text-sky-600 font-semibold">Data Analytics graduate</span> with a strong foundation in statistics, programming, machine learning, and AI. I enjoy building end-to-end ML solutions that solve real problems.
               </p>
               <p className="text-gray-700 leading-relaxed text-base mb-4">
-                My work spans <span className="text-sky-600 font-semibold">NLP and transformers</span>, <span className="text-sky-600 font-semibold">Computer Vision with YOLOv8</span>, and <span className="text-sky-600 font-semibold">GenAI</span> projects.
+                My work spans <span className="text-sky-600 font-semibold">NLP and transformers</span>, <span className="text-sky-600 font-semibold">Computer Vision with YOLOv8</span>, and <span className="text-sky-600 font-semibold">Generative AI with RAG systems</span>.
               </p>
               <p className="text-gray-600 leading-relaxed text-base">
                 Beyond the code, I&apos;m drawn to the intersection of AI and real-world impact — from healthcare document intelligence to customer experience automation.
@@ -64,6 +64,17 @@ export default function About() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Values / personality */}
+            <div
+              className="rounded-2xl p-6"
+              style={{ background: "linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%)" }}
+            >
+              <p className="text-white/80 text-sm mb-2 font-medium">My Approach</p>
+              <p className="text-white text-base leading-relaxed font-medium">
+                &ldquo;I don&apos;t just build models. I build systems — with clean data pipelines, explainable results, and real deployment in mind.&rdquo;
+              </p>
             </div>
           </motion.div>
 
@@ -116,17 +127,6 @@ export default function About() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Values / personality */}
-            <div
-              className="rounded-2xl p-6"
-              style={{ background: "linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%)" }}
-            >
-              <p className="text-white/80 text-sm mb-2 font-medium">My Approach</p>
-              <p className="text-white text-base leading-relaxed font-medium">
-                &ldquo;I don&apos;t just build models. I build systems — with clean data pipelines, explainable results, and real deployment in mind.&rdquo;
-              </p>
             </div>
           </motion.div>
         </div>
