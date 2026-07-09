@@ -139,32 +139,14 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1, ease: "easeOut" }}
             className="flex flex-col gap-5 text-center lg:text-left"
           >
-            {/* Greeting badge */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.3 }}
-              className="inline-flex items-center gap-2 self-center lg:self-start"
-            >
-              <span
-                className="px-4 py-2 rounded-full text-sm font-medium border"
-                style={{
-                  background: "rgba(14, 165, 233, 0.08)",
-                  borderColor: "rgba(14, 165, 233, 0.25)",
-                  color: "#0284c7",
-                }}
-              >
-                👋 Hi, I&apos;m Usha
-              </span>
-            </motion.div>
-
             {/* Name */}
             <div>
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.35 }}
-                className="font-script text-4xl sm:text-5xl lg:text-6xl text-navy-900 leading-tight"
+                className="text-4xl sm:text-5xl lg:text-6xl text-navy-900 leading-tight"
+                style={{ fontFamily: "'Times New Roman', serif" }}
               >
                 Usha Rao Patteti
               </motion.h1>
