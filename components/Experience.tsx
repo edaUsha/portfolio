@@ -8,9 +8,9 @@ const experiences = [
   {
     type: "internship",
     icon: Briefcase,
-    title: "Data Science Intern",
+    title: "Data Analyst Intern",
     organization: "Infosys Springboard",
-    period: "2025",
+    period: "2026",
     location: "Remote, India",
     description:
       "Built SecureView Pulse — an AI-powered cybersecurity threat intelligence dashboard. Led the ML pipeline development, combining real-time threat data with NLP-based classification to surface actionable security insights for SOC teams.",
@@ -28,10 +28,10 @@ const experiences = [
     icon: GraduationCap,
     title: "B.Sc Data Analytics",
     organization: "Guru Nanak College",
-    period: "2022 – 2026",
+    period: "2023 – 2026",
     location: "Chennai, India",
     description:
-      "Four-year undergraduate program with deep focus on statistics, machine learning, Python programming, and data-driven decision making. Maintained a strong academic record while building a substantial independent project portfolio.",
+      "Three-year undergraduate program with deep focus on statistics, machine learning, Python programming, and data-driven decision making. Maintained a strong academic record while building a substantial independent project portfolio.",
     highlights: [
       "CGPA: 8.9 / 10.0",
       "Specialized in ML, NLP, and Statistical Modeling",
@@ -46,15 +46,15 @@ const experiences = [
     icon: GraduationCap,
     title: "Data Science AI/ML Certification",
     organization: "TCS iON",
-    period: "2024",
+    period: "2025",
     location: "Online",
     description:
       "Intensive certification program covering the full ML lifecycle — from data preprocessing and feature engineering to model training, evaluation, and deployment. Strengthened applied ML skills with industry-relevant case studies.",
     highlights: [
       "Covered supervised and unsupervised learning",
       "Deep learning and neural network fundamentals",
-      "Industry project simulations",
-      "Issued by Tata Consultancy Services",
+      
+      
     ],
     color: "indigo",
     badge: "Certification",
