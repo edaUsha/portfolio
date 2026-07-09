@@ -11,7 +11,7 @@ const projects = [
     title: "Medical RAG Assistant",
     subtitle: "Medical Report Explainer",
     description:
-      "An AI-powered question-answering system that retrieves precise information from medical documents using Retrieval Augmented Generation. Processes PDFs, chunks intelligently, and answers clinical queries with source citations.",
+      "An AI-powered question-answering system that retrieves precise information from medical documents using Retrieval Augmented Generation. Processes PDFs, chunks intelligently, and answers clinica[...]",
     tags: ["Python", "LangChain", "Pinecone", "OpenAI GPT-4o", "FastAPI", "FAISS"],
     github: "https://github.com/edaUsha/Medical-Report-Explainer",
     demo: null,
@@ -37,13 +37,12 @@ const projects = [
     title: "Interactive Cyber Threat Visualization Dashboard",
     subtitle: "ML Engineering Project",
     description:
-      "Interactive dashboard that visualizes cyber threat intelligence from network and security event logs in real time. Security analysts can explore attack types, sources, timelines, and severity using rich visual filters, enabling faster detection, investigation, and response to suspicious activity.",
+      "Interactive dashboard that visualizes cyber threat intelligence from network and security event logs in real time. Security analysts can explore attack types, sources, timelines, and severity u[...]",
     tags: ["Cyber-security", "Threat-Tntelligence", "SOC-Operations", "Attack-Detection", "Cyber-Threat-Dashboard", "Vercel"],
     github: "https://github.com/edaUsha/Development-of-Interactive-Cyber-Threat-Visualization-Dashboard",
     demo: null,
     gradient: "from-indigo-400 to-indigo-600",
     highlight: false,
-    
   },
   {
     id: 4,
@@ -51,7 +50,7 @@ const projects = [
     title: "Swimming Stroke Detection",
     subtitle: "Computer Vision Project",
     description:
-      "Real-time computer vision pipeline using YOLOv8 pose estimation to detect and classify swimming strokes from video footage. Identifies butterfly, freestyle, breaststroke, and backstroke from keypoint analysis.",
+      "Real-time computer vision pipeline using YOLOv8 pose estimation to detect and classify swimming strokes from video footage. Identifies butterfly, freestyle, breaststroke, and backstroke from ke[...]",
     tags: ["YOLOv8", "OpenCV", "PyTorch", "Pose Estimation", "CNN", "Python"],
     github: "https://github.com/edaUsha/Pose-Based-Swimming-Stroke-Detection",
     demo: null,
@@ -66,7 +65,7 @@ const projects = [
     subtitle: "ML + Streamlit Deployment",
     description:
       "End-to-end churn prediction system for banking customers using XGBoost with class imbalance handling. Deployed as a live Streamlit app with explainability features via SHAP.",
-    tags: ["XGBoost",  "Streamlit", "Scikit-learn", "Python", "Imbalanced-learn"],
+    tags: ["XGBoost", "Streamlit", "Scikit-learn", "Python", "Imbalanced-learn"],
     github: "https://github.com/edaUsha/Banking-Churn-Prediction",
     demo: null,
     gradient: "from-sky-500 to-blue-600",
@@ -78,7 +77,7 @@ const projects = [
     title: "Olist E-Commerce Analysis",
     subtitle: "Analytical Deep Dive",
     description:
-      "Operational root cause analysis of Brazilian e-commerce platform data. Discovered that 97% of customers were one-time buyers — pivoting from RFM analysis to delivery performance investigation that surfaced actionable logistics insights.",
+      "Operational root cause analysis of Brazilian e-commerce platform data. Discovered that 97% of customers were one-time buyers — pivoting from RFM analysis to delivery performance investigation[...]",
     tags: ["Python", "Pandas", "Data Visualization", "Statistical Analysis", "Business Intelligence"],
     github: "https://github.com/edaUsha/OList-Brazilian-E-Commerce-Dataset",
     demo: null,
@@ -163,9 +162,6 @@ export default function Projects() {
                   <p className="text-gray-600 text-sm leading-relaxed flex-1">
                     {project.description}
                   </p>
-
-
-                  </div>
 
                   {/* Tags */}
                   <div className="flex flex-wrap gap-1.5">
