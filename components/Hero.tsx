@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/edaUsha", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/usha-rao-patteti", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:usharao@example.com", label: "Email" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/usha-rao-patteti-521206281", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:work.pattetiusha@gmail.com", label: "Email" },
 ];
 
 export default function Hero() {
@@ -159,7 +159,7 @@ export default function Hero() {
               transition={{ delay: 0.45 }}
             >
               <p className="font-display text-lg sm:text-xl font-semibold gradient-text">
-                Data Analytics Graduate &middot; Machine Learning Engineer
+                Data Analytics Graduate
               </p>
             </motion.div>
 
@@ -210,7 +210,7 @@ export default function Hero() {
               transition={{ delay: 0.75 }}
               className="flex flex-wrap gap-2 justify-center lg:justify-start mt-2"
             >
-              {["Python", "PyTorch", "LangChain", "RAG", "Computer Vision", "SAS Certified"].map((tech) => (
+              {["Python", "PyTorch", "RAG", "Computer Vision", "SAS Certified"].map((tech) => (
                 <span key={tech} className="skill-tag">
                   {tech}
                 </span>
