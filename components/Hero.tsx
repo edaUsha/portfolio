@@ -97,6 +97,7 @@ export default function Hero() {
                   {/* Replace this div with your actual image:
                       <Image src="/profile.jpg" alt="Usha Rao Patteti" fill className="object-cover" />
                   */}
+                  <Image src="/profile.jpg" alt="Usha Rao Patteti" fill className="object-cover"/>
                   <div className="text-sky-300 mb-2">
                     <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                       <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
