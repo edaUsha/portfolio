@@ -1,7 +1,7 @@
 "use client";
 
+import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
 import { MapPin, Calendar, Sparkles } from "lucide-react";
 
 const quickFacts = [
@@ -41,10 +41,10 @@ export default function About() {
             {/* Bio */}
             <div className="glass-card p-7">
               <p className="text-gray-700 leading-relaxed text-base mb-4">
-                I&apos;m a <span className="text-sky-600 font-semibold">Data Analytics graduate</span> with a strong foundation in statistics, programming, machine learning, and AI. I enjoy buildi[...]
+                I&apos;m a <span className="text-sky-600 font-semibold">Data Analytics graduate</span> with a strong foundation in statistics, programming, machine learning, and AI. I enjoy building end-to-end systems that solve real problems.
               </p>
               <p className="text-gray-700 leading-relaxed text-base mb-4">
-                My work spans <span className="text-sky-600 font-semibold">NLP and transformers</span>, <span className="text-sky-600 font-semibold">Computer Vision with YOLOv8</span>, and <span c[...]
+                My work spans <span className="text-sky-600 font-semibold">NLP and transformers</span>, <span className="text-sky-600 font-semibold">Computer Vision with YOLOv8</span>, and <span className="text-sky-600 font-semibold">GenAI</span> projects.
               </p>
               <p className="text-gray-600 leading-relaxed text-base">
                 Beyond the code, I&apos;m drawn to the intersection of AI and real-world impact — from healthcare document intelligence to customer experience automation.
