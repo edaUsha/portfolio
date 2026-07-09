@@ -4,34 +4,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { MapPin, Calendar, Sparkles } from "lucide-react";
 
-const timeline = [
-  {
-    year: "2023",
-    title: "Started the journey",
-    desc: "Began learning Python, Statistics, and Data Analytics fundamentals",
-    color: "bg-sky-400",
-  },
-  {
-    year: "2024",
-    title: "Built ML & NLP projects",
-    desc: "Fine-tuned BERT, built churn prediction models, deployed Streamlit apps",
-    color: "bg-sky-500",
-  },
-  {
-    year: "2025",
-    title: "Generative AI & RAG systems",
-    desc: "Built Medical Report Explainer RAG, Computer Vision pipeline, Infosys Springboard internship",
-    color: "bg-sky-600",
-  },
-  {
-    year: "2026",
-    title: "Ready to ship",
-    desc: "Seeking Data Scientist / ML Engineer roles. Building, learning, shipping.",
-    color: "bg-sky-700",
-    current: true,
-  },
-];
-
 const quickFacts = [
   { icon: MapPin, label: "Location", value: "Chennai, India" },
   { icon: Calendar, label: "Availability", value: "Open to opportunities" },
@@ -59,7 +31,7 @@ export default function About() {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          {/* Left: Bio + Timeline */}
+          {/* Left: Bio */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -69,10 +41,10 @@ export default function About() {
             {/* Bio */}
             <div className="glass-card p-7">
               <p className="text-gray-700 leading-relaxed text-base mb-4">
-                I&apos;m a <span className="text-sky-600 font-semibold">Data Analytics graduate</span> with a strong foundation in statistics, programming, machine learning, and AI. I enjoy building end-to-end intelligent systems that solve practical problems — not just models, but deployable products.
+                I&apos;m a <span className="text-sky-600 font-semibold">Data Analytics graduate</span> with a strong foundation in statistics, programming, machine learning, and AI. I enjoy buildi[...]
               </p>
               <p className="text-gray-700 leading-relaxed text-base mb-4">
-                My work spans <span className="text-sky-600 font-semibold">NLP and transformers</span>, <span className="text-sky-600 font-semibold">Computer Vision with YOLOv8</span>, and <span className="text-sky-600 font-semibold">Generative AI with RAG pipelines</span>. I think in systems: how data flows, where models break, and what the user actually needs at the end.
+                My work spans <span className="text-sky-600 font-semibold">NLP and transformers</span>, <span className="text-sky-600 font-semibold">Computer Vision with YOLOv8</span>, and <span c[...]
               </p>
               <p className="text-gray-600 leading-relaxed text-base">
                 Beyond the code, I&apos;m drawn to the intersection of AI and real-world impact — from healthcare document intelligence to customer experience automation.
@@ -91,49 +63,6 @@ export default function About() {
                     </div>
                   </div>
                 ))}
-              </div>
-            </div>
-
-            {/* Timeline */}
-            <div>
-              <h3 className="font-display font-semibold text-lg text-navy-900 mb-5">
-                My Journey
-              </h3>
-              <div className="relative pl-10">
-                {/* Line */}
-                <div className="absolute left-4 top-2 bottom-2 w-0.5 bg-gradient-to-b from-sky-300 to-sky-100" />
-
-                <div className="flex flex-col gap-6">
-                  {timeline.map((item, i) => (
-                    <motion.div
-                      key={item.year}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={inView ? { opacity: 1, x: 0 } : {}}
-                      transition={{ delay: 0.3 + i * 0.12 }}
-                      className="relative"
-                    >
-                      {/* Dot */}
-                      <div
-                        className={`absolute -left-6 top-1 w-4 h-4 rounded-full ${item.color} border-2 border-white shadow-sm ${item.current ? "ring-2 ring-sky-300 ring-offset-1" : ""}`}
-                      />
-
-                      <div className={`glass-card p-4 ${item.current ? "border-sky-300 shadow-glass" : ""}`}>
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className="text-xs font-bold text-sky-500 font-display">
-                            {item.year}
-                          </span>
-                          {item.current && (
-                            <span className="text-xs px-2 py-0.5 rounded-full bg-sky-100 text-sky-600 font-medium">
-                              Now
-                            </span>
-                          )}
-                        </div>
-                        <p className="font-semibold text-navy-900 text-sm mb-0.5">{item.title}</p>
-                        <p className="text-gray-500 text-xs leading-relaxed">{item.desc}</p>
-                      </div>
-                    </motion.div>
-                  ))}
-                </div>
               </div>
             </div>
           </motion.div>
