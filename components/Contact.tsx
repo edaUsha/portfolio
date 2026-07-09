@@ -16,7 +16,7 @@ const contactLinks = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "linkedin.com/in/usha-rao-patteti",
-    href: "www.linkedin.com/in/usha-rao-patteti-521206281",
+    href: "https://www.linkedin.com/in/usha-rao-patteti-521206281",
     color: "bg-blue-100 text-blue-600",
   },
   {
