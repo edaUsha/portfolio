@@ -8,15 +8,15 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "usharao@example.com",
-    href: "mailto:usharao@example.com",
+    value: "work.pattetiusha@gmail.com",
+    href: "mailto:work.pattetiusha@gmail.com",
     color: "bg-sky-100 text-sky-600",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
     value: "linkedin.com/in/usha-rao-patteti",
-    href: "https://linkedin.com/in/usha-rao-patteti",
+    href: "www.linkedin.com/in/usha-rao-patteti-521206281",
     color: "bg-blue-100 text-blue-600",
   },
   {
@@ -241,7 +241,7 @@ export default function Contact() {
 
                   <p className="text-center text-gray-400 text-xs">
                     Or email directly at{" "}
-                    <a href="mailto:usharao@example.com" className="text-sky-500 hover:underline">
+                    <a href="mailto:work.pattetiusha@gmail.com" className="text-sky-500 hover:underline">
                       usharao@example.com
                     </a>
                   </p>
