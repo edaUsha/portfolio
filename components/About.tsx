@@ -7,7 +7,7 @@ import { MapPin, Calendar, Sparkles } from "lucide-react";
 const quickFacts = [
   { icon: MapPin, label: "Location", value: "Chennai, India" },
   { icon: Calendar, label: "Availability", value: "Open to opportunities" },
-  { icon: Sparkles, label: "Interests", value: "NLP · Computer Vision · GenAI" },
+  { icon: Sparkles, label: "Interests", value: "ML · DL · Computer Vision · GenAI · NLP" },
 ];
 
 export default function About() {
@@ -95,7 +95,7 @@ export default function About() {
                 <div>
                   <p className="font-semibold text-navy-900">B.Sc Data Analytics</p>
                   <p className="text-sky-600 text-sm font-medium">Guru Nanak College, Chennai</p>
-                  <p className="text-gray-500 text-sm">2022 – 2026 &middot; CGPA 8.9</p>
+                  <p className="text-gray-500 text-sm">2023 – 2026 &middot; CGPA 8.9</p>
                   <div className="mt-3 flex flex-wrap gap-2">
                     {["Statistics", "Machine Learning", "Python", "R", "SQL"].map((t) => (
                       <span key={t} className="skill-tag text-xs py-0.5">{t}</span>
@@ -111,7 +111,7 @@ export default function About() {
               <div className="grid grid-cols-1 gap-3">
                 {[
                   { emoji: "🧠", title: "NLP Systems", desc: "Sentiment analysis, text classification, BERT fine-tuning" },
-                  { emoji: "👁️", title: "Computer Vision", desc: "Object detection, pose estimation with YOLOv8" },
+                  { emoji: "👁️", title: "Computer Vision", desc: "Pose estimation with YOLOv8" },
                   { emoji: "🤖", title: "GenAI & RAG", desc: "LLM-powered retrieval systems, LangChain pipelines" },
                   { emoji: "📊", title: "ML Engineering", desc: "End-to-end models with Streamlit deployment" },
                 ].map((item) => (
